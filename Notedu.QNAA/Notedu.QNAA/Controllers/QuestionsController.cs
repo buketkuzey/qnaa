@@ -21,9 +21,65 @@ namespace Notedu.QNAA.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Question> Get()
+        public QuestionModel Get(int id)
         {
-            return new List<Question>();
+            return new QuestionModel();
+        }
+
+        [HttpGet]
+        public List<QuestionModel> GetHistory(int id)
+        {
+            return new List<QuestionModel>();
+        }
+
+        [HttpGet]
+        public QuestionModel GetByUser(int userId)
+        {
+            return new QuestionModel();
+        }
+
+
+        [HttpGet]
+        public QuestionModel GetByTag(int tagId)
+        {
+            return new QuestionModel();
+        }
+
+        [HttpPost]
+        public QuestionModel Create(QuestionModel model)
+        {
+            return new QuestionModel();
+        }
+
+        [HttpPost]
+        public QuestionModel Update(QuestionModel model)
+        {
+            return new QuestionModel();
+        }
+
+        [HttpPost]
+        public QuestionModel Report(int questionId)
+        {
+            return new QuestionModel();
+        }
+
+        [HttpPost]
+        public QuestionModel Upvote(int questionId)
+        {
+            return new QuestionModel();
+        }
+
+        [HttpPost]
+        public QuestionModel DownVote(int questionId)
+        {
+            return new QuestionModel();
+        }
+
+
+        [HttpDelete]
+        public QuestionModel Delete(int id)
+        {
+            return new QuestionModel();
         }
     }
 }

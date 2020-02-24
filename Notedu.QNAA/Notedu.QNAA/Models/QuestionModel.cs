@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Notedu.QNAA.Models
 {
-    public class Question
+    public class QuestionModel
     {
     }
 }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Notedu.QNAA.Models;
+using Notedu.QNAA.Models.Tags;
 
 namespace Notedu.QNAA.Controllers
 {

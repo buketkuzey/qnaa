@@ -1,6 +1,6 @@
 ﻿namespace Notedu.QNAA.Models
 {
-    public class CommentModel
+    public class BaseModel
     {
     }
 }

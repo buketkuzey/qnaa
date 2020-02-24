@@ -58,6 +58,12 @@ namespace Notedu.QNAA.Controllers
         }
 
         [HttpPost]
+        public QuestionModel Accept(int questionId)
+        {
+            return new QuestionModel();
+        }
+
+        [HttpPost]
         public QuestionModel Report(int questionId)
         {
             return new QuestionModel();

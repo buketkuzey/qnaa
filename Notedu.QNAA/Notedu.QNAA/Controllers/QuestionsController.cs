@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Notedu.QNAA.Models;
 using Notedu.QNAA.Models.Questions;
 
 namespace Notedu.QNAA.Controllers
@@ -76,6 +77,18 @@ namespace Notedu.QNAA.Controllers
         public QuestionModel DownVote(int questionId)
         {
             return new QuestionModel();
+        }
+
+        [HttpPost]
+        public List<QuestionModel> GetFavorites(int questionId)
+        {
+            return new List<QuestionModel>();
+        }
+
+        [HttpPost]
+        public BaseModel AddToFavorites(int questionId)
+        {
+            return new BaseModel();
         }
 
 

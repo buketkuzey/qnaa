@@ -8,7 +8,6 @@ namespace Notedu.QNAA.Controllers
     [Route("[controller]")]
     public class TagsController : ControllerBase
     {
-
         private readonly ILogger<TagsController> _logger;
 
         public TagsController(ILogger<TagsController> logger)
@@ -35,7 +34,13 @@ namespace Notedu.QNAA.Controllers
         }
 
         [HttpDelete]
-        public TagModel Delete(int id)
+        public TagModel SoftDelete(int id)
+        {
+            return new TagModel();
+        }
+
+        [HttpDelete]
+        public TagModel HardDelete(int id)
         {
             return new TagModel();
         }

@@ -93,7 +93,14 @@ namespace Notedu.QNAA.Controllers
 
 
         [HttpDelete]
-        public QuestionModel Delete(int id)
+        public QuestionModel SoftDelete(int id)
+        {
+            return new QuestionModel();
+        }
+
+
+        [HttpDelete]
+        public QuestionModel HardDelete(int id)
         {
             return new QuestionModel();
         }

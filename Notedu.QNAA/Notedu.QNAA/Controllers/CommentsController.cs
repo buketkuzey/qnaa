@@ -67,7 +67,13 @@ namespace Notedu.QNAA.Controllers
 
 
         [HttpDelete]
-        public CommentModel Delete(int id)
+        public CommentModel SoftDelete(int id)
+        {
+            return new CommentModel();
+        }
+
+        [HttpDelete]
+        public CommentModel HardDelete(int id)
         {
             return new CommentModel();
         }

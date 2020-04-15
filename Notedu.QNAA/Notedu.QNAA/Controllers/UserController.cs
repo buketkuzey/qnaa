@@ -35,7 +35,13 @@ namespace Notedu.QNAA.Controllers
         }
 
         [HttpDelete]
-        public UserModel Delete(int id)
+        public UserModel SoftDelete(int id)
+        {
+            return new UserModel();
+        }
+
+        [HttpDelete]
+        public UserModel HardDelete(int id)
         {
             return new UserModel();
         }

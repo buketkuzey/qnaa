@@ -18,19 +18,19 @@ namespace Notedu.QNAA.Controllers
         }
 
         [HttpGet]
-        public AnswerModel Get(int id)
+        public AnswerModel Get(int Id)
         {
             return new AnswerModel();
         }
 
         [HttpGet]
-        public List<AnswerModel> GetHistory(int id)
+        public List<AnswerModel> GetHistory(int Id)
         {
             return new List<AnswerModel>();
         }
 
         [HttpGet]
-        public AnswerModel GetByUser(int userId)
+        public AnswerModel GetByUser(int UserId)
         {
             return new AnswerModel();
         }
@@ -49,26 +49,32 @@ namespace Notedu.QNAA.Controllers
         }
 
         [HttpPost]
-        public AnswerModel Report(int questionId)
+        public AnswerModel Report(int Id)
         {
             return new AnswerModel();
         }
 
         [HttpPost]
-        public AnswerModel Upvote(int questionId)
+        public AnswerModel Upvote(int Id)
         {
             return new AnswerModel();
         }
 
         [HttpPost]
-        public AnswerModel DownVote(int questionId)
+        public AnswerModel DownVote(int Id)
+        {
+            return new AnswerModel();
+        }
+
+        [HttpDelete]
+        public AnswerModel SoftDelete(int Id)
         {
             return new AnswerModel();
         }
 
 
         [HttpDelete]
-        public AnswerModel Delete(int id)
+        public AnswerModel HardDelete(int Id)
         {
             return new AnswerModel();
         }

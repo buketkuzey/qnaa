@@ -1,18 +1,22 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Notedu.QNAA.Models.V1.Tags;
+
 
 namespace Notedu.QNAA.Controllers.V1
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("v1.0/[controller]")]
     public class TagsController : ControllerBase
     {
         private readonly ILogger<TagsController> _logger;
+  
 
         public TagsController(ILogger<TagsController> logger)
         {
             _logger = logger;
+          
         }
 
         [HttpGet]

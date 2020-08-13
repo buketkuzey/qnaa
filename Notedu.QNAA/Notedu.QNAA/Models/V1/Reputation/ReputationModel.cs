@@ -1,4 +1,4 @@
-﻿namespace Notedu.QNAA.Models.Reputation
+﻿namespace Notedu.QNAA.Models.V1.Reputation
 {
     public class ReputationModel
     {

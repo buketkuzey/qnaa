@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Notedu.QNAA.Models.Tags;
+using Notedu.QNAA.Models.V1.Tags;
 
-namespace Notedu.QNAA.Controllers
+namespace Notedu.QNAA.Controllers.V1
 {
     [ApiController]
     [Route("[controller]")]

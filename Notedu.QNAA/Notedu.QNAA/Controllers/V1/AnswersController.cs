@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Notedu.QNAA.Models.Answers;
+using Notedu.QNAA.Models.V1.Answers;
 
-namespace Notedu.QNAA.Controllers
+namespace Notedu.QNAA.Controllers.V1
 {
     [ApiController]
     [Route("[controller]")]

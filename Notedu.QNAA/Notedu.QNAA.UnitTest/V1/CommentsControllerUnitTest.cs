@@ -1,11 +1,10 @@
 using Microsoft.Extensions.Logging.Abstractions;
-using Notedu.QNAA.Controllers;
-using Notedu.QNAA.Models.Comments;
-using Notedu.QNAA.Models.Comments;
+using Notedu.QNAA.Controllers.V1;
+using Notedu.QNAA.Models.V1.Comments;
 using System.Collections.Generic;
 using Xunit;
 
-namespace Notedu.QNAA.UnitTest
+namespace Notedu.QNAA.UnitTest.V1
 {
     public class CommentsControllerUnitTest
     {

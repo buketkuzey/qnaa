@@ -1,11 +1,11 @@
 using Microsoft.Extensions.Logging.Abstractions;
-using Notedu.QNAA.Controllers;
+using Notedu.QNAA.Controllers.V1;
 using Notedu.QNAA.Models;
-using Notedu.QNAA.Models.Questions;
+using Notedu.QNAA.Models.V1.Questions;
 using System.Collections.Generic;
 using Xunit;
 
-namespace Notedu.QNAA.UnitTest
+namespace Notedu.QNAA.UnitTest.V1
 {
     public class QuestionsControllerUnitTest
     {

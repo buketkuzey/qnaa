@@ -13,5 +13,6 @@
   <ItemGroup>
     <Folder Include="Controllers\V1\" />
     <Folder Include="Models\V1\" />
+    <Folder Include="Models\V1\Jobs\" />
   </ItemGroup>
 </Project>
